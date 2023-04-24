@@ -1,0 +1,6 @@
+com\Projecto_Integrador_Backend_DGBall\Dto\LoginUsuario.class
+com\Projecto_Integrador_Backend_DGBall\Security\Enums\RolNombre.class
+com\Projecto_Integrador_Backend_DGBall\Entity\Persona.class
+com\Projecto_Integrador_Backend_DGBall\repository\IPersonaRepository.class
+com\Projecto_Integrador_Backend_DGBall\Security\Entity\Rol.class
+com\portafolio\Diego\Security\Dto\NuevoUsuario.class
