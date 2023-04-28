@@ -11,18 +11,18 @@ import jakarta.persistence.Entity;
 
 
 @Entity
-public class Experiencia {
+public class Educacion {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String nombreE;
     private String descripcionE;
     
-    public Experiencia(){
+    public Educacion(){
         
     }
     
-    public Experiencia(String nombreE, String descripcionE) {
+    public Educacion(String nombreE, String descripcionE) {
         this.nombreE = nombreE;
         this.descripcionE = descripcionE;
     }

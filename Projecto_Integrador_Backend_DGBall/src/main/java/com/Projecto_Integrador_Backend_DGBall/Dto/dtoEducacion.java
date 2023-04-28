@@ -6,16 +6,16 @@ package com.Projecto_Integrador_Backend_DGBall.Dto;
 
 import jakarta.validation.constraints.NotBlank;
 
-public class dtoExperiencia {
+public class dtoEducacion {
     @NotBlank
     private String nombreE;
     @NotBlank
     private String descripcionE;
     
-    public dtoExperiencia(){
+    public dtoEducacion(){
     }
     
-    public dtoExperiencia(String nombreE, String descripcionE){
+    public dtoEducacion(String nombreE, String descripcionE){
             this.nombreE = nombreE;
             this.descripcionE = descripcionE;
     }

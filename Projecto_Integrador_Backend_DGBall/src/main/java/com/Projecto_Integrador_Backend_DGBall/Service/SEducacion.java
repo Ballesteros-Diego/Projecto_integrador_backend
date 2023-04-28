@@ -3,9 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.Projecto_Integrador_Backend_DGBall.Service;
-
-import com.Projecto_Integrador_Backend_DGBall.Entity.Experiencia;
-import com.Projecto_Integrador_Backend_DGBall.repository.RExperiencia;
+import com.Projecto_Integrador_Backend_DGBall.Entity.Educacion;
+import com.Projecto_Integrador_Backend_DGBall.repository.REducacion;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,35 +17,34 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Service
 @Transactional
-public class SExperiencia {
+public class SEducacion {
     @Autowired
-    RExperiencia rExperiencia;
+    REducacion rEducacion;
     
-    public List<Experiencia> list(){
-        return rExperiencia.findAll();
+    public List<Educacion> list(){
+        return rEducacion.findAll();
     }
     
-    public Optional<Experiencia> getOne(int id) {
-        return rExperiencia.findById(id);
+    public Optional<Educacion> getOne(int id) {
+        return rEducacion.findById(id);
     }
     
-    public Optional<Experiencia> getByNombreE(String nombreE){
-        return rExperiencia.findByNombreE(nombreE);
+    public Optional<Educacion> getByNombreE(String nombreE){
+        return rEducacion.findByNombreE(nombreE);
     }
     
-    public void save(Experiencia experiencia){
-        rExperiencia.save(experiencia);
+    public void save(Educacion educacion){
+        rEducacion.save(educacion);
     }
     public void delete(int id){
-            rExperiencia.deleteById(id);
+            rEducacion.deleteById(id);
     }
     
     public boolean existById(int id){
-        return rExperiencia.existsById(id);
+        return rEducacion.existsById(id);
     }
 
     public boolean existByNombreE(String nombreE){
-        return rExperiencia.existsByNombreE(nombreE);
+        return rEducacion.existsByNombreE(nombreE);
     }
 }
-
