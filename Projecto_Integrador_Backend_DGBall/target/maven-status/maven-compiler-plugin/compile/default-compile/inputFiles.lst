@@ -1,13 +1,17 @@
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Entity\Persona.java
+D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Service\SEducacion.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\Entity\Rol.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Dto\NuevoUsuario.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\Entity\UsuarioPrincipal.java
+D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\repository\REducacion.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\Controller\AuthController.java
+D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Entity\Educacion.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\jwt\JwtEntryPoint.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\Service\UserDetailsImpl.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Dto\dtoExperiencia.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Dto\LoginUsuario.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\jwt\JwtProvider.java
+D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Dto\dtoEducacion.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Controller\PersonaController.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\Dto\JwtDto.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\Dto\NuevoUsuario.java
@@ -22,6 +26,7 @@ D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projec
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Service\SExperiencia.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Controller\WebConfig.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\Service\RolService.java
+D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Controller\CEducacion.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Interface\IPersonaService.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Security\MainSecurity.java
 D:\Programar\Wassapp\Projecto_Integrador_Backend_DGBall\src\main\java\com\Projecto_Integrador_Backend_DGBall\Projecto_Integrador_Backend_DGBall\ProjectoIntegradorBackendDgBallApplication.java
