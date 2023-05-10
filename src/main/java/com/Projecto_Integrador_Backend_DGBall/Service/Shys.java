@@ -5,8 +5,9 @@
  */
 package com.Projecto_Integrador_Backend_DGBall.Service;
 
-import com.Projecto_Integrador_Backend_DGBall.Entity.HySS;
-import com.Projecto_Integrador_Backend_DGBall.repository.Rhyss;
+
+import com.Projecto_Integrador_Backend_DGBall.Entity.hys;
+import com.Projecto_Integrador_Backend_DGBall.repository.Rhys;
 import java.util.List;
 import java.util.Optional;
 import javax.transaction.Transactional;
@@ -17,33 +18,33 @@ import org.springframework.stereotype.Service;
 @Service
 public class Shys {
     @Autowired
-    Rhyss rhyss;
+    Rhys rhys;
     
-    public List<HySS> list(){
-        return rhyss.findAll();
+    public List<hys> list(){
+        return rhys.findAll();
     }
     
-    public Optional<HySS> getOne(int id){
-        return rhyss.findById(id);
+    public Optional<hys> getOne(int id){
+        return rhys.findById(id);
     }
     
-    public Optional<HySS> getByNombre(String nombre){
-        return rhyss.findByNombre(nombre);
+    public Optional<hys> getByNombre(String nombre){
+        return rhys.findByNombre(nombre);
     }
     
-    public void save(HySS skill){
-        rhyss.save(skill);
+    public void save(hys skill){
+        rhys.save(skill);
     }
     
     public void delete(int id){
-        rhyss.deleteById(id);
+        rhys.deleteById(id);
     }
     
     public boolean existsById(int id){
-        return rhyss.existsById(id);
+        return rhys.existsById(id);
     }
     
     public boolean existsByNombre(String nombre){
-        return rhyss.existsByNombre(nombre);
+        return rhys.existsByNombre(nombre);
     }
 }
